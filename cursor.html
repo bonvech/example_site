@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>CSS master</title>
+	<style>
+		body{
+			background-color: #ddf;
+		}
+		h1{
+			cursor: crosshair;
+			text-transform: uppercase;
+			letter-spacing: 100px;
+			text-align: center;
+			font-size: 50px;
+			color: purple;
+		}
+		a{
+			text-shadow: #666666 5px 5px 5px;
+			text-align: center;
+			display: block;
+			font-size: 100px;
+			letter-spacing: 80px;
+			text-decoration: none;
+		}
+		a:link{
+			text-decoration: none;
+			color: green;
+		}
+		
+		a:visited{
+			color: purple;
+		}
+		a:hover{
+			border-bottom: 2px dashed DarkOrchid;
+			padding-bottom: 3px;
+			color: yellow;
+		}
+		a:active{
+			text-decoration: none;
+			color:red;
+		}
+		a.ml{
+			cursor: wait;
+		}
+		a.mw{
+			cursor: move;
+		}
+		a.my{
+			cursor: help;
+		}
+		a.mx{
+			cursor: url(cursor.png), default;	
+		}
+	</style>
+</head>
+<body>
+	<h1>курсорчики</h1>
+	<p><a href = "https://www.google.com/search?q=pig" target = "_blank" class = "ml">АЛО (wait)</a></p>
+	<p><a href = "https://github.com/" target = "_blank" class = "mw">АЛО (move)</a></p>
+	<p><a href = "https://vk.com/netypoj" target = "_blank" class = "my">АЛО (help)</a></p>
+	<p><a href = "https://www.google.com/search?q=ban" target = "_blank" class = "mx">АЛО (imba)</a></p>
+</body>
+</html>
